@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shaista Eram - Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Custom styles for the Inter font */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Smooth scrolling for anchor links */
+        html {
+            scroll-behavior: smooth;
+        }
+        /* Basic spinner for loading state */
+        .spinner {
+            border: 4px solid rgba(0, 0, 0, 0.1);
+            border-left-color: #6366f1; /* Indigo-600 */
+            border-radius: 50%;
+            width: 1.5rem;
+            height: 1.5rem;
+            animation: spin 1s linear infinite;
+            display: inline-block;
+            vertical-align: middle;
+            margin-left: 0.5rem;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 antialiased">
+
+    <nav class="bg-white shadow-lg py-4 fixed w-full z-10 top-0 border-b border-indigo-100">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <a href="#" class="rounded-md p-2 hover:bg-indigo-50 transition-colors duration-300">
+                <img src="https://static.vecteezy.com/system/resources/previews/008/533/718/non_2x/se-artistic-letter-logo-design-with-serif-font-in-black-and-white-colors-illustration-vector.jpg" 
+                     alt="Shaista Eram Logo" 
+                     class="h-10 w-auto rounded-md"> </a>
+            <div class="space-x-4">
+                <a href="#about" class="text-gray-700 hover:text-indigo-700 transition-colors duration-300 px-3 py-2 rounded-md hover:bg-indigo-100 font-medium">About</a>
+                <a href="#experience" class="text-gray-700 hover:text-indigo-700 transition-colors duration-300 px-3 py-2 rounded-md hover:bg-indigo-100 font-medium">Experience</a>
+                <a href="#skills" class="text-gray-700 hover:text-indigo-700 transition-colors duration-300 px-3 py-2 rounded-md hover:bg-indigo-100 font-medium">Skills</a>
+                <a href="#projects" class="text-gray-700 hover:text-indigo-700 transition-colors duration-300 px-3 py-2 rounded-md hover:bg-indigo-100 font-medium">Projects</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="about" class="pt-24 pb-16 bg-gradient-to-br from-indigo-100 to-purple-200">
+        <div class="container mx-auto px-4 flex flex-col md:flex-row items-center justify-center gap-12">
+            <div class="text-center md:text-left md:w-1/2">
+                <h1 class="text-5xl font-extrabold text-gray-900 mb-4 leading-tight">Hi, I'm <span class="text-indigo-700">Shaista Eram</span></h1>
+                <p id="about-me-text" class="text-xl text-gray-700 mb-6">
+                    An Associate Application Support Specialist at Sigma EMEA by day and a creative designer by passion.
+                </p>
+                <p class="text-lg text-gray-600">
+                    With a background in application support, I've developed strong problem-solving skills and attention to detail. However, my true creative outlet lies in designing, where I can express myself through various mediums like calligraphy, graphic designing, and poster making.
+                </p>
+            </div>
+            <div class="md:w-1/3 flex justify-center">
+                <img src="https://placehold.co/300x300/c7d2fe/4f46e5?text=Profile" alt="Shaista Eram Profile" class="rounded-full shadow-xl border-4 border-white transform hover:scale-105 transition-transform duration-300 ease-in-out">
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center text-gray-900 mb-10">Design Experience</h2>
+            <div class="max-w-3xl mx-auto bg-indigo-50 p-8 rounded-xl shadow-xl border border-indigo-200">
+                <p class="text-lg text-gray-700 leading-relaxed">
+                    As a self-taught designer, I've honed my skills in using Canva to create stunning visuals for personal projects, presentations, posters, banners, and invitations. I'm passionate about bringing ideas to life through design and am always looking to learn and grow as a designer.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center text-gray-900 mb-10">Skills</h2>
+            <div class="flex flex-wrap justify-center gap-4 max-w-4xl mx-auto">
+                <span class="bg-indigo-300 text-indigo-900 px-5 py-2 rounded-full text-lg font-medium shadow-md hover:bg-indigo-400 transition-colors duration-300">Graphic Designing</span>
+                <span class="bg-indigo-300 text-indigo-900 px-5 py-2 rounded-full text-lg font-medium shadow-md hover:bg-indigo-400 transition-colors duration-300">Poster Making</span>
+                <span class="bg-indigo-300 text-indigo-900 px-5 py-2 rounded-full text-lg font-medium shadow-md hover:bg-indigo-400 transition-colors duration-300">Calligraphy</span>
+                <span class="bg-indigo-300 text-indigo-900 px-5 py-2 rounded-full text-lg font-medium shadow-md hover:bg-indigo-400 transition-colors duration-300">Presentation Design</span>
+                <span class="bg-indigo-300 text-indigo-900 px-5 py-2 rounded-full text-lg font-medium shadow-md hover:bg-indigo-400 transition-colors duration-300">Banner Design</span>
+                <span class="bg-indigo-300 text-indigo-900 px-5 py-2 rounded-full text-lg font-medium shadow-md hover:bg-indigo-400 transition-colors duration-300">Invitation Design</span>
+                <span class="bg-indigo-300 text-indigo-900 px-5 py-2 rounded-full text-lg font-medium shadow-md hover:bg-indigo-400 transition-colors duration-300">Canva</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 bg-gradient-to-br from-purple-100 to-pink-200">
+        <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-12">
+            <div class="bg-white p-8 rounded-xl shadow-xl border border-gray-200 transform hover:scale-105 transition-transform duration-300 ease-in-out">
+                <h3 class="text-3xl font-bold text-gray-900 mb-6 text-center">Interests</h3>
+                <ul class="list-disc list-inside text-lg text-gray-700 space-y-2">
+                    <li>Creativity</li>
+                    <li>Music</li>
+                    <li>Painting</li>
+                    <li>Drawing</li>
+                </ul>
+            </div>
+            <div class="bg-white p-8 rounded-xl shadow-xl border border-gray-200 transform hover:scale-105 transition-transform duration-300 ease-in-out">
+                <h3 class="text-3xl font-bold text-gray-900 mb-6 text-center">What Drives Me</h3>
+                <p class="text-lg text-gray-700 leading-relaxed">
+                    I'm driven by my passion for design and creativity. I believe that good design can elevate ideas and make a lasting impact. I'm excited to bring my skills and experience to new challenges and collaborate with like-minded individuals.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center text-gray-900 mb-10">Portfolio Goals</h2>
+            <div class="max-w-3xl mx-auto bg-green-50 p-8 rounded-xl shadow-xl border border-green-200">
+                <p id="portfolio-goals-text" class="text-lg text-gray-700 leading-relaxed mb-6">
+                    I'm looking to build a portfolio that showcases my design skills and creativity. I'm excited to work on new projects and contribute my skills to a dynamic team.
+                </p>
+                </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center text-gray-900 mb-10">Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+                <div class="bg-white p-8 rounded-xl shadow-xl border border-gray-200 transform hover:scale-105 transition-transform duration-300 ease-in-out">
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Object Detection based on faster R – CNN using Range Compressed Airborne Radar data</h3>
+                    <div id="project1-description" class="text-gray-700 mb-4"
+                         data-original-text="Implemented ship detection with Faster R-CNN on X-band airborne RC radar data, achieving high recall in dense scenarios. Demonstrated robustness in complex maritime environments like the North Sea, enhancing safety and security beyond AIS and Marine radars."
+                         data-current-state="short">
+                        <p>Implemented ship detection with Faster R-CNN on X-band airborne RC radar data, achieving high recall in dense scenarios.</p>
+                        <p>Demonstrated robustness in complex maritime environments like the North Sea, enhancing safety and security beyond AIS and Marine radars.</p>
+                    </div>
+                    <button id="project1-llm-btn" class="mt-4 bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700 transition-colors duration-300 flex items-center justify-center shadow-md">
+                        ✨ Elaborate / Summarize
+                        <span id="project1-spinner" class="spinner hidden"></span>
+                    </button>
+                    <img src="Project overview .jpg" alt="Object Detection Project Overview" class="w-full h-48 object-cover rounded-lg shadow-md mt-6">
+                </div>
+
+                <div class="bg-white p-8 rounded-xl shadow-xl border border-gray-200 transform hover:scale-105 transition-transform duration-300 ease-in-out">
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">E-Commerce Price Tracker Using Web Scraping</h3>
+                    <div id="project2-description" class="text-gray-700 mb-4"
+                         data-original-text="The Pricewise project innovates Amazon price tracking with advanced scraping, MongoDB storage, and email notifications. Its Next.js and Tailwind CSS web app offers intuitive components like Navbar, search bar, and product card. Dynamic image displays are powered by React Responsive Carousel, and elegant font styles are defined using Google Fonts, setting a new standard in efficiency and user experience."
+                         data-current-state="short">
+                        <p>The Pricewise project innovates Amazon price tracking with advanced scraping, MongoDB storage, and email notifications.</p>
+                        <p>Its Next.js and Tailwind CSS web app offers intuitive components like Navbar, search bar, and product card. Dynamic image displays are powered by React Responsive Carousel, and elegant font styles are defined using Google Fonts, setting a new standard in efficiency and user experience.</p>
+                    </div>
+                    <button id="project2-llm-btn" class="mt-4 bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700 transition-colors duration-300 flex items-center justify-center shadow-md">
+                        ✨ Elaborate / Summarize
+                        <span id="project2-spinner" class="spinner hidden"></span>
+                    </button>
+                    <img src="https://placehold.co/600x300/fef08a/facc15?text=Project+Image+2" alt="E-Commerce Price Tracker Project" class="w-full h-48 object-cover rounded-lg shadow-md mt-6">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 text-white py-8">
+        <div class="container mx-auto px-4 text-center">
+            <p class="text-lg mb-2">&copy; 2025 Shaista Eram. All rights reserved.</p>
+            <p class="text-md">Designed with <span class="text-red-500">&hearts;</span> using Tailwind CSS</p>
+        </div>
+    </footer>
+
+    <script>
+        // Function to call the Gemini API
+        async function callGeminiAPI(prompt) {
+            let chatHistory = [];
+            chatHistory.push({ role: "user", parts: [{ text: prompt }] });
+            const payload = { contents: chatHistory };
+            const apiKey = ""; // API key is left empty as per instructions, Canvas will provide it at runtime
+            const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`;
+
+            try {
+                const response = await fetch(apiUrl, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(payload)
+                });
+                const result = await response.json();
+
+                if (result.candidates && result.candidates.length > 0 &&
+                    result.candidates[0].content && result.candidates[0].content.parts &&
+                    result.candidates[0].content.parts.length > 0) {
+                    return result.candidates[0].content.parts[0].text;
+                } else {
+                    console.error("Gemini API response structure unexpected:", result);
+                    return "Error: Could not generate content.";
+                }
+            } catch (error) {
+                console.error("Error calling Gemini API:", error);
+                return "Error: Failed to connect to AI service.";
+            }
+        }
+
+        // Function to handle project description elaboration/summarization
+        async function toggleProjectDescription(projectId) {
+            const descriptionDiv = document.getElementById(`${projectId}-description`);
+            const llmButton = document.getElementById(`${projectId}-llm-btn`);
+            const spinner = document.getElementById(`${projectId}-spinner`);
+
+            const originalText = descriptionDiv.dataset.originalText;
+            let currentState = descriptionDiv.dataset.currentState;
+
+            // Show spinner and disable button
+            spinner.classList.remove('hidden');
+            llmButton.disabled = true;
+            llmButton.classList.add('opacity-50', 'cursor-not-allowed');
+
+            let newText = "";
+            let newButtonText = "";
+            let newState = "";
+
+            if (currentState === 'short') {
+                // Elaborate
+                const prompt = `Elaborate on the following project description, adding more technical details and impact, but keep it concise enough for a portfolio: '${originalText}'`;
+                newText = await callGeminiAPI(prompt);
+                newButtonText = "✨ Summarize";
+                newState = "full";
+            } else {
+                // Summarize
+                const currentDisplayedText = descriptionDiv.innerText; // Get current displayed text for summarization
+                const prompt = `Summarize the following project description concisely, highlighting key achievements: '${currentDisplayedText}'`;
+                newText = await callGeminiAPI(prompt);
+                newButtonText = "✨ Elaborate / Summarize"; // Revert to original button text or a more general one
+                newState = "short";
+            }
+
+            // Update the description div and button
+            descriptionDiv.innerHTML = `<p>${newText.replace(/\n/g, '</p><p>')}</p>`; // Replace newlines with paragraphs for better formatting
+            descriptionDiv.dataset.currentState = newState;
+            llmButton.innerHTML = `${newButtonText} <span id="${projectId}-spinner" class="spinner ${spinner.classList.contains('hidden') ? 'hidden' : ''}"></span>`; // Re-add spinner span
+
+            // Hide spinner and enable button
+            spinner.classList.add('hidden');
+            llmButton.disabled = false;
+            llmButton.classList.remove('opacity-50', 'cursor-not-allowed');
+        }
+
+        // Add event listeners to the buttons
+        document.addEventListener('DOMContentLoaded', () => {
+            document.getElementById('project1-llm-btn').addEventListener('click', () => toggleProjectDescription('project1'));
+            document.getElementById('project2-llm-btn').addEventListener('click', () => toggleProjectDescription('project2'));
+            // The event listener for 'generate-cover-letter-btn' has been removed
+        });
+    </script>
+</body>
+</html>
+
